@@ -194,9 +194,6 @@ img {
   -webkit-transition: background 0.3s ease-out;
   transition: background 0.3s ease-out;
 }
-.btn-show-all:hover {
-  background: var(--main-red);
-}
 .btn-show-all > i {
   margin-left: 10px;
   -webkit-transform: translateX(0);
@@ -206,7 +203,10 @@ img {
   transition: transform 0.3s ease-out;
   transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
 }
-.btn-show-all > i:hover {
+.btn-show-all:hover {
+  background: var(--main-red);
+}
+.btn-show-all:hover > i {
   -webkit-transform: translateX(2px);
           transform: translateX(2px);
 }

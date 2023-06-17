@@ -179,22 +179,20 @@ img {
   font-size: 2rem;
   background: var(--main-gray);
   transition: background 0.3s ease-out;
-  &:hover {
-    background: var(--main-red);
-  }
 
   & > i {
     margin-left: 10px;
     transform: translateX(0);
     transition: transform 0.3s ease-out;
-    &:hover {
-      transform: translateX(2px);
-    }
   }
 
-  // &:hover > i {
-  //   transform: translateX(2px);
-  // }
+  &:hover {
+    background: var(--main-red);
+  }
+
+  &:hover > i {
+    transform: translateX(2px);
+  }
 }
 
 /* Contact section */
